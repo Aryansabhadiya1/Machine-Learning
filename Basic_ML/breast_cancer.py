@@ -30,6 +30,7 @@ def model(X,y):
 # load data in x and y
 X,y = load_breast_cancer(return_X_y=True)
 
+#Give data to train model X = independent values, y = target values
 cr = model(X,y)
 
 print(cr)
